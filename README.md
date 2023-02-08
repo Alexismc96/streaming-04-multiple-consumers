@@ -7,15 +7,21 @@ One process will create task messages. Multiple worker processes will share the 
 
 ## Before You Begin
 
-1. Fork this starter repo into your GitHub.
-1. Clone your repo down to your machine.
-1. View / Command Palette - then Python: Select Interpreter
-1. Select your conda environment. 
+1. Fork this starter repo into your GitHub. 
+Completed. 
+2. Clone your repo down to your machine.
+Completed.
+3. View / Command Palette - then Python: Select Interpreter
+Completed 
+4. Select your conda environment.
+Completed
 
 ## Read
 
 1. Read the [RabbitMQ Tutorial - Work Queues](https://www.rabbitmq.com/tutorials/tutorial-two-python.html)
-1. Read the code and comments in this repo.
+Read
+2. Read the code and comments in this repo.
+Read
 
 ## RabbitMQ Admin 
 
@@ -33,11 +39,12 @@ Explore the RabbitMQ website.
 
 1. Run listening_worker.py
 
-Will it terminate on its own? How do you know? 
+Will it terminate on its own? How do you know?
+No, it does not terminate without manual interruption. It continues to search for messages until ctrl+c is used.  
 
 ## Ready for Work
 
-1. Use your emitter_of_tasks to produce more task messages.
+1. Use your emitter_of_tasks to produce more task messages. 
 
 ## Start Another Listening Worker 
 
